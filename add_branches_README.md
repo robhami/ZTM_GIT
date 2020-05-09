@@ -88,3 +88,10 @@ Believe that once origin defined once you dont have to do it again. Next time yo
 New branch will be at github repository. Can open it up and add comments. Then click <Create Pull Request> button. 
   
 Then it can be reviewed by click on hyperlink below comments on Pull Requests tab. Then someone else can approve it (can't approve your own) and merge pull request (ideally someone else does this). 
+
+
+
+```
+Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/js/bground_gen/background-generator (master)
+$ git branch bigfeature
+
