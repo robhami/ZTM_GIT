@@ -3,7 +3,7 @@
 
 
 
-```git attributes
+```gitattributes
 Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/git/background_gen_2/background-generator (master)
 $ git branch
 * master
