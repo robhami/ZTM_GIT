@@ -90,8 +90,69 @@ New branch will be at github repository. Can open it up and add comments. Then c
 Then it can be reviewed by click on hyperlink below comments on Pull Requests tab. Then someone else can approve it (can't approve your own) and merge pull request (ideally someone else does this). 
 
 
+Make a new branch and add changes: 
 
 ```
 Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/js/bground_gen/background-generator (master)
 $ git branch bigfeature
 
+
+Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/js/bground_gen/background-generator (bigfeature)
+$ git add .
+
+Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/js/bground_gen/background-generator (bigfeature)
+$ git commit -m" reverting back to old title"
+[bigfeature fffee0c]  reverting back to old title
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/js/bground_gen/background-generator (bigfeature)
+$ git push --set-upstream origin bigfeature
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 328 bytes | 328.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'bigfeature' on GitHub by visiting:
+remote:      https://github.com/robhami/background-generator/pull/new/bigfeature
+remote:
+To https://github.com/robhami/background-generator.git
+ * [new branch]      bigfeature -> bigfeature
+Branch 'bigfeature' set up to track remote branch 'bigfeature' from 'origin'.
+
+Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/js/bground_gen/background-generator (bigfeature)
+$ git status
+On branch bigfeature
+Your branch is up to date with 'origin/bigfeature'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+Make another change: 
+```
+
+Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/js/bground_gen/background-generator (bigfeature)
+$ git add .
+
+Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/js/bground_gen/background-generator (bigfeature)
+$ git commit -m "added exclamation"
+[bigfeature 6f5ff62] added exclamation
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/js/bground_gen/background-generator (bigfeature)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 302 bytes | 302.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/robhami/background-generator.git
+   fffee0c..6f5ff62  bigfeature -> bigfeature
