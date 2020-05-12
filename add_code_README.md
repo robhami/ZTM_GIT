@@ -122,10 +122,14 @@ Writing objects: 100% (5/5), 1.20 KiB | 408.00 KiB/s, done.
 Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/robhami/background-generator.git
    dcf97de..18fdb05  master -> master
+   
+```
 Files are now on GitHub.
 
 Create another user and edit/update files
 Can now create another user folder the same way using the index etc files. If edit then save the index.html in the folder with the .git folder. Then check git status. It will show it has changed:
+
+```
 
 Rob@Rob-Laptop MINGW64 ~/Documents/My Websites/zero to mastery/git/background_gen_2/background-generator (master)
 $ git status
@@ -137,6 +141,7 @@ Changes not staged for commit:
   (use "git restore <file>..." to discard changes in working directory)
         modified:   index.html
 
+```
 no changes added to commit (use "git add" and/or "git commit -a")
 To add files can use add command (can also use . period to add all files):
 
