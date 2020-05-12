@@ -141,10 +141,11 @@ Changes not staged for commit:
   (use "git restore <file>..." to discard changes in working directory)
         modified:   index.html
 
-```
 no changes added to commit (use "git add" and/or "git commit -a")
-To add files can use add command (can also use . period to add all files):
 
+```
+To add files can use add command (can also use . period to add all files):
+```
 Rob@Rob-Laptop MINGW64 ~/Documents/My Websites/zero to mastery/git/background_gen_2/background-generator (master)
 $ git add index.html
 
