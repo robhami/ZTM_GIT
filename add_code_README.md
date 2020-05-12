@@ -2,14 +2,15 @@ ZeroToMastery GitHub Add Code
 Misc info
 Can publish repositories online. Go to settings in repository and enable GitHub Pages
 
-1. Starting Project
+### 1. Starting Project ###
 Create repository
 
 Clone or download- select HTTPS. Copy url.
 
-2. git clone cmd
+### 2. git clone cmd ###
 Then go to terminal, navigate to folders, then use git clone command:
 
+```
 Rob@Rob-Laptop MINGW64 ~/Documents/My Websites/zero to mastery/JS
 $ ls
 'advanced control flow'/   advanced_functions/   advanced_objects/   coding_exe/         ES10/   ES8/         how_js_works/         Loops/                            scope/       units_converter/
@@ -35,9 +36,12 @@ remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Receiving objects: 100% (3/3), done.
 
 Rob@Rob-Laptop MINGW64 ~/Documents/My Websites/zero to mastery/JS/bground_gen
+
+```
 This adds folder called background generator to folders in Windows. The .git file allows communication with GitHub. Can now copy and paste code files (index.html script.js style.css) and put them into background generator folder that was created when folder cloned. You can check status with the git status command.
 
-3. git status command
+### 3. git status command ###
+```
 Rob@Rob-Laptop MINGW64 ~/Documents/My Websites/zero to mastery/JS/bground_gen
 $ ls
 background-generator/  index.html  script.js  style.css
@@ -61,12 +65,14 @@ Untracked files:
         index.html
         script.js
         style.css
+```
 
 nothing added to commit but untracked files present (use "git add" to track)
 
 gits status tells us we have untracked files. Too update them use git add command:
 
-4. git add command
+### 4. git add command ###
+```
 Rob@Rob-Laptop MINGW64 ~/Documents/My Websites/zero to mastery/JS/bground_gen/background-generator (master)
 $ git add index.html script.js style.css
 
@@ -84,9 +90,13 @@ Changes to be committed:
         new file:   index.html
         new file:   script.js
         new file:   style.css
+        
+```        
 Need to now commit to changes (using git commit) and add a message (using -m):
 
-5. git commit command (and -m command)
+### 5. git commit command (and -m command) ###
+
+```
 Rob@Rob-Laptop MINGW64 ~/Documents/My Websites/zero to mastery/JS/bground_gen/background-generator (master)
 $ git commit -m "adding starting project"
 [master 18fdb05] adding starting project
@@ -94,9 +104,14 @@ $ git commit -m "adding starting project"
  create mode 100644 index.html
  create mode 100644 script.js
  create mode 100644 style.css
+```
+
+
 Then we need to push it to the repository using git push:
 
-6. git push command
+### 6. git push command ###
+
+```
 Rob@Rob-Laptop MINGW64 ~/Documents/My Websites/zero to mastery/JS/bground_gen/background-generator (master)
 $ git push
 Enumerating objects: 6, done.
@@ -137,12 +152,15 @@ $ git add .
 
 Rob@Rob-Laptop MINGW64 ~/Documents/My Websites/zero to mastery/git/background_gen_2/background-generator (master)
 $
+```
 
 Then do steps as before- commit and push commands. This then updates index.html but has the previous versions under commits.
 
-git pull command
+### git pull command ###
+
 To pull the latest version to the other user's folder use the git pull command:
 
+```
 Rob@Rob-Laptop MINGW64 ~/Documents/My Websites/zero to mastery/js/bground_gen/background-generator (master)
 $ git pull
 remote: Enumerating objects: 5, done.
@@ -156,3 +174,4 @@ Updating 18fdb05..7238829
 Fast-forward
  index.html | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
+```
