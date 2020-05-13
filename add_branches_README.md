@@ -23,7 +23,8 @@ $ git branch
 ### 2. git checkout command ###
 
 use this to set directory to a branch
-```
+
+```gitattributes
 Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/git/background_gen_2/background-generator (master)
 $ git checkout littlefeature
 Switched to branch 'littlefeature'
@@ -39,7 +40,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 ```
 ### 3. Use add and commit ###
 
-```
+```gitattributes
 Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/git/background_gen_2/background-generator (littlefeature)
 $ git add .
 
@@ -62,7 +63,7 @@ $ git commit -m "changing text"
 
 Initially, need to define origin to tell to but branch of github repository where you cloned from. 
 
-```
+```gitattributes
 Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/git/background_gen_2/background-generator (littlefeature)
 $ git push --set-upstream origin littlefeature
 Enumerating objects: 14, done.
@@ -90,7 +91,7 @@ Then it can be reviewed by click on hyperlink below comments on Pull Requests ta
 
 Make a new branch and add changes: 
 
-```
+```gitattributes
 Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/js/bground_gen/background-generator (master)
 $ git branch bigfeature
 
@@ -133,7 +134,7 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 Make another change: 
-```
+```gitattributes
 
 Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/js/bground_gen/background-generator (bigfeature)
 $ git add .
