@@ -230,7 +230,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 This merge command from GitBash causes conflict as shown above. It also adds text to index.html code
 
-```
+```javascript
 
 <!DOCTYPE html>
 <html>
