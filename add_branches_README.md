@@ -133,7 +133,10 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
+
 Make another change: 
+
+
 ```gitattributes
 
 Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/js/bground_gen/background-generator (bigfeature)
@@ -155,7 +158,6 @@ Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To https://github.com/robhami/background-generator.git
    fffee0c..6f5ff62  bigfeature -> bigfeature
-```
 
 
 Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/git/background_gen_2/background_generator (master)
