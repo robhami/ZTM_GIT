@@ -261,6 +261,8 @@ This merge command from GitBash causes conflict as shown above. It also adds tex
 	
 ======= is where user who added conflict branch is at. It shows that here to the end h1 is missing. but the master does have it. Can just remove the 
 <<<<<<< HEAD
+
+Then add, commit and push:
 	
 =======
 
