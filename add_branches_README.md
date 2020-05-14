@@ -171,7 +171,9 @@ Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/git/background_gen_2/b
 $ git checkout conflict
 Switched to branch 'conflict'
 ```
+
 Now go and remove h1 line completely and save. Then someone else merges big feature on GitHub. Now you add the conflict branch: 
+
 ```
 Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/git/background_gen_2/background_generator (conflict)
 $ git status
