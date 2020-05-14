@@ -137,6 +137,8 @@ no changes added to commit (use "git add" and/or "git commit -a")
 Make another change: 
 
 
+### 5. Git merge ###
+
 ```gitattributes
 
 Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/js/bground_gen/background-generator (bigfeature)
