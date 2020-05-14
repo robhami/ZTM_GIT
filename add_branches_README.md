@@ -174,7 +174,8 @@ Switched to branch 'conflict'
 
 Now go and remove h1 line completely and save. Then someone else merges big feature on GitHub. Now you add the conflict branch: 
 
-```
+```gitAttributes
+
 Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/git/background_gen_2/background_generator (conflict)
 $ git status
 On branch conflict
@@ -261,6 +262,8 @@ This merge command from GitBash causes conflict as shown above. It also adds tex
 	
 =======
 
+
+```gitAttributes
 Rob@Rob-Laptop MINGW64 ~/Documents/coding/zero_to_mastery/git/background_gen_2/background_generator (conflict|MERGING)
 $ git status
 On branch conflict
