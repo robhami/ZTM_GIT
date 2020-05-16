@@ -10,7 +10,7 @@ Clone or download- select HTTPS. Copy url.
 ### 2. git clone cmd ###
 Then go to terminal, navigate to folders, then use git clone command:
 
-```
+```git attributes
 Rob@Rob-Laptop MINGW64 ~/Documents/My Websites/zero to mastery/JS
 $ ls
 'advanced control flow'/   advanced_functions/   advanced_objects/   coding_exe/         ES10/   ES8/         how_js_works/         Loops/                            scope/       units_converter/
@@ -41,7 +41,8 @@ Rob@Rob-Laptop MINGW64 ~/Documents/My Websites/zero to mastery/JS/bground_gen
 This adds folder called background generator to folders in Windows. The .git file allows communication with GitHub. Can now copy and paste code files (index.html script.js style.css) and put them into background generator folder that was created when folder cloned. You can check status with the git status command.
 
 ### 3. git status command ###
-```
+
+```git attributes
 Rob@Rob-Laptop MINGW64 ~/Documents/My Websites/zero to mastery/JS/bground_gen
 $ ls
 background-generator/  index.html  script.js  style.css
@@ -72,7 +73,8 @@ nothing added to commit but untracked files present (use "git add" to track)
 gits status tells us we have untracked files. Too update them use git add command:
 
 ### 4. git add command ###
-```
+
+```git attributes
 Rob@Rob-Laptop MINGW64 ~/Documents/My Websites/zero to mastery/JS/bground_gen/background-generator (master)
 $ git add index.html script.js style.css
 
@@ -96,7 +98,7 @@ Need to now commit to changes (using git commit) and add a message (using -m):
 
 ### 5. git commit command (and -m command) ###
 
-```
+```git attributes
 Rob@Rob-Laptop MINGW64 ~/Documents/My Websites/zero to mastery/JS/bground_gen/background-generator (master)
 $ git commit -m "adding starting project"
 [master 18fdb05] adding starting project
@@ -111,7 +113,7 @@ Then we need to push it to the repository using git push:
 
 ### 6. git push command ###
 
-```
+```git attributes
 Rob@Rob-Laptop MINGW64 ~/Documents/My Websites/zero to mastery/JS/bground_gen/background-generator (master)
 $ git push
 Enumerating objects: 6, done.
@@ -129,8 +131,8 @@ Files are now on GitHub.
 Create another user and edit/update files
 Can now create another user folder the same way using the index etc files. If edit then save the index.html in the folder with the .git folder. Then check git status. It will show it has changed:
 
-```
 
+```git attributes
 Rob@Rob-Laptop MINGW64 ~/Documents/My Websites/zero to mastery/git/background_gen_2/background-generator (master)
 $ git status
 On branch master
@@ -145,7 +147,8 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 ```
 To add files can use add command (can also use . period to add all files):
-```
+
+```git attributes
 Rob@Rob-Laptop MINGW64 ~/Documents/My Websites/zero to mastery/git/background_gen_2/background-generator (master)
 $ git add index.html
 
@@ -166,7 +169,7 @@ Then do steps as before- commit and push commands. This then updates index.html 
 
 To pull the latest version to the other user's folder use the git pull command:
 
-```
+```git attributes
 Rob@Rob-Laptop MINGW64 ~/Documents/My Websites/zero to mastery/js/bground_gen/background-generator (master)
 $ git pull
 remote: Enumerating objects: 5, done.
