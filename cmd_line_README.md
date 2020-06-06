@@ -1,4 +1,4 @@
-ZeroToMastery- Cmd Line
+### ZeroToMastery- Cmd Line ###
 How humans communicated with computers before GUI existed.
 
 Tend to be faster than GUI's.
@@ -7,45 +7,48 @@ Can access servers, databases, front-end application and it can download scripts
 
 Installed Git to allow it to run on Windows.
 
-ls command
+#### ls command ####
 Lists everything in current directory
 
-pwd command
+#### pwd command ####
 present work directory
 
-cd
+#### cd ####
 can go into current directory e.g. cd Desktop
 
-cd ..
+#### cd .. ####
 can go one directory up
 
-clear
+#### clear ####
 Clears terminal
 
-cd /
+#### cd / ####
 Take me to root directory (i.e. every top level folder on computer)
 
 —> root director
 
-cd ~
+#### cd ~ ####
 This takes me to user directory
 
-cd <folder/folder/folder>
+#### cd <folder/folder/folder> ####
 e.g. cd Desktop/test
 
 takes to test folder on desktop.
 
-start
+#### start ####
 e.g. start test
 
 will open test folder, in apple its: open .
 
 that opens current folder
 
-mkdir
+#### mkdir ####
 e.g. mkdir test2
 
 creates a folder
+
+
+
 
 touch
 e.g. touch.index.html
